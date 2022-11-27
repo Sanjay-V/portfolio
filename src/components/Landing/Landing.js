@@ -2,18 +2,20 @@ import React, { useContext } from 'react';
 import { Button } from '@material-ui/core';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { makeStyles } from '@material-ui/core/styles';
+import Type from '../../data/type.js';
 
 import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
+
 import {
-    FaTwitter,
     FaLinkedin,
     FaGithub,
-    FaYoutube,
-    FaBlogger,
+    FaMediumM,
+    FaKaggle,
+    FaMailBulk,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -101,42 +103,42 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {socialsData.medium && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.medium}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaMediumM
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
+                                    aria-label='Medium'
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {socialsData.kaggle && (
                             <a
-                                href={socialsData.youtube}
+                                href={socialsData.kaggle}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                <FaKaggle
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
+                                    aria-label='Kaggle'
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
+                        {socialsData.email && (
                             <a
-                                href={socialsData.blogger}
+                                href={socialsData.email}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaBlogger
+                                <FaMailBulk
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
+                                    aria-label='Email'
                                 />
                             </a>
                         )}
@@ -160,7 +162,12 @@ function Landing() {
                         style={{ color: theme.tertiary }}
                     >
                         <h6>{headerData.title}</h6>
-                        <h1>{headerData.name}</h1>
+                        <h1>{headerData.greetings} {headerData.name}</h1>
+                        <h1>
+                        <div style={{ padding: 0, textAlign: "left" }}>
+                            <Type />
+                        </div>
+                        </h1>
                         <p>{headerData.desciption}</p>
 
                         <div className='lcr-buttonContainer'>

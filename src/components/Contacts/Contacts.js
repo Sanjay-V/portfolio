@@ -16,6 +16,8 @@ import {
     FaInstagram,
     FaGitlab,
     FaMediumM,
+    FaKaggle,
+    FaMailBulk,
 } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
@@ -421,6 +423,26 @@ function Contacts() {
                                     className={classes.socialIcon}
                                 >
                                     <FaGitlab aria-label='GitLab' />
+                                </a>
+                            )}
+                            {socialsData.kaggle && (
+                                <a
+                                    href={socialsData.kaggle}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaKaggle aria-label='GitLab' />
+                                </a>
+                            )}
+                            {socialsData.email && (
+                                <a
+                                    href={socialsData.email}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaMailBulk aria-label='GitLab' />
                                 </a>
                             )}
                         </div>
