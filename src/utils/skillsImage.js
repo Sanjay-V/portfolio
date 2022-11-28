@@ -58,7 +58,9 @@ import strapi from '../assets/svg/skills/strapi.svg'
 import tensorflow from '../assets/svg/skills/tensorflow.svg'
 import webix from '../assets/svg/skills/webix.svg'
 import wordpress from '../assets/svg/skills/wordpress.svg'
-
+import tableau from '../assets/svg/skills/tableau.svg'
+import spark from '../assets/svg/skills/spark.svg'
+import hadoop from '../assets/svg/skills/hadoop.svg'
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
 import fastify from '../assets/svg/skills/fastify.svg'
@@ -72,8 +74,15 @@ import picsart from '../assets/svg/skills/picsart.svg'
 import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
-
+import flask from '../assets/svg/skills/flask.svg'
 import canva from '../assets/svg/skills/canva.svg'
+import heroku from '../assets/svg/skills/heroku.svg'
+import lambda from '../assets/svg/skills/lambda.svg'
+import cloudwatch from '../assets/svg/skills/cloudwatch.svg'
+import redshift from '../assets/svg/skills/redshift.svg'
+import rds from '../assets/svg/skills/rds.svg'
+import kafka from '../assets/svg/skills/kafka.svg'
+import vscode from '../assets/svg/skills/vscode.svg'
 
 
 export const skillsImage = (skill) => {
@@ -227,6 +236,28 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'tableau':
+            return tableau
+        case 'spark':
+            return spark
+        case 'hadoop':
+            return hadoop
+        case 'flask':
+            return flask
+        case 'heroku':
+            return heroku
+        case 'lambda':
+            return lambda
+        case 'cloudwatch':
+            return cloudwatch
+        case 'redshift':
+            return redshift
+        case 'rds':
+            return rds
+        case 'kafka':
+            return kafka
+        case 'vscode':
+            return vscode
         default:
             break;
     }

@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Marble Hills Middle School',
-        course: 'Higher Secondary Education',
-        startYear: '2007',
-        endYear: '2015'
+        institution: 'Jaigopal Garodia Matriculation Higher Secondary school',
+        course: 'Senior Secondary',
+        startYear: '2015',
+        endYear: '2017'
     },
     {
         id: 2,
-        institution: 'Somerset School of Science',
-        course: 'Bachelor of Technology',
-        startYear: '2015',
-        endYear: '2019'
+        institution: 'Chennai Institute of Technology',
+        course: 'Bachelor of Engineering - Mechatronics Engineering',
+        startYear: '2017',
+        endYear: '2021'
     },
     {
         id: 3,
-        institution: 'Hawking University, Cambridge',
-        course: 'Master of Technology',
-        startYear: '2019',
+        institution: 'Internet',
+        course: 'Data Analytics Engineering',
+        startYear: '2021',
         endYear: 'Present'
     },
 ]
