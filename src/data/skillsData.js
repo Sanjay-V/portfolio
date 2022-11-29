@@ -11,7 +11,15 @@
     'Redshift',
     'RDS',
     'Kafka',
-    'VSCode'
+    'VSCode',
+    'Git',
+    'Docker',
+    'Postman',
+    'MongoDB',
+    'SQLite',
+    'Pycharm',
+    'Linux',
+    'PowerBI'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

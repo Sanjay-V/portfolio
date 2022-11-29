@@ -83,7 +83,11 @@ import redshift from '../assets/svg/skills/redshift.svg'
 import rds from '../assets/svg/skills/rds.svg'
 import kafka from '../assets/svg/skills/kafka.svg'
 import vscode from '../assets/svg/skills/vscode.svg'
-
+import postman from '../assets/svg/skills/postman.svg'
+import sqlite from '../assets/svg/skills/sqlite.svg'
+import pycharm from '../assets/svg/skills/pycharm.svg'
+import linux from '../assets/svg/skills/linux.svg'
+import powerbi from '../assets/svg/skills/powerbi.svg'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -258,6 +262,16 @@ export const skillsImage = (skill) => {
             return kafka
         case 'vscode':
             return vscode
+        case 'postman':
+            return postman
+        case 'sqlite':
+            return sqlite
+        case 'pycharm':
+            return pycharm
+        case 'linux':
+            return linux
+        case 'powerbi':
+            return powerbi
         default:
             break;
     }

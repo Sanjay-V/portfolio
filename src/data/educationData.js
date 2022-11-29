@@ -1,10 +1,10 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Jaigopal Garodia Matriculation Higher Secondary school',
-        course: 'Senior Secondary',
-        startYear: '2015',
-        endYear: '2017'
+        institution: 'Internet',
+        course: 'Data Analytics Engineering',
+        startYear: '2021',
+        endYear: 'Present'
     },
     {
         id: 2,
@@ -15,9 +15,9 @@ export const educationData = [
     },
     {
         id: 3,
-        institution: 'Internet',
-        course: 'Data Analytics Engineering',
-        startYear: '2021',
-        endYear: 'Present'
+        institution: 'Jaigopal Garodia Matriculation Higher Secondary school',
+        course: 'Senior Secondary',
+        startYear: '2015',
+        endYear: '2017'
     },
 ]

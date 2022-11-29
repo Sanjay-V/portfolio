@@ -6,26 +6,27 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
-
+import nfl from '../assets/svg/projects/nfl.svg'
+import soccer from '../assets/svg/projects/soccer.svg'
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
+        projectName: "NFL Big Data Bowl",
         projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
         tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://www.kaggle.com/code/sanjayv007/nfl-big-data-bowl-beginner-s-complete-eda/notebook',
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: one
+        image: nfl
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: two
+        projectName: 'SOCCER SQUADS',
+        projectDesc: 'This project can help football and transfer market afficiandos view and analyse their favourite football clubs as weel as favourite football leagues.',
+        tags: ['soccer', 'data', 'dataanlytics', 'datascience', 'sql', 'bubblechart', 'barplot'],
+        code: 'https://www.kaggle.com/datasets/sanjeetsinghnaik/football-club-market-value-2021?select=club.csv',
+        demo: 'https://public.tableau.com/app/profile/sanjay2407/viz/soccer_16392584555250/SOCCERSQUADS',
+        image: soccer
     },
     {
         id: 3,

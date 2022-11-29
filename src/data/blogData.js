@@ -1,27 +1,27 @@
 export const blogData = [
     {
         id: 1,
-        title: 'SCRAPING BILLBOARD AND IMDB USING PYTHON SELENIUM',
-        description: 'Here we will use Selenium to navigate between web pages, and try to scrape data from them.',
-        date: 'Aug 7, 2020',
-        image: 'https://1.bp.blogspot.com/-6vZQoWcIZeo/Xvw5ZD5Y53I/AAAAAAAABgI/GH2b5OuMaXAKuigK4diBbeYDW6dD3qVvgCK4BGAsYHg/w400-h225/selenium.jpg',
-        url: 'https://hackzism.blogspot.com/2020/07/scraping-billboard-and-imdb-using.html'
+        title: 'Understanding Apache Spark',
+        description: 'Introduction to Apache Spark and its features, libraries, and languages used.',
+        date: 'Nov 27, 2022',
+        image: 'https://miro.medium.com/max/810/0*6rCBTaD7N99u8qRT',
+        url: 'https://sanjay-v.medium.com/understanding-apache-spark-2d742fa9c1bf'
     },
     {
         id: 2,
-        title: 'CHECK WEATHER FROM TERMINAL USING WTTR.IN',
-        description: 'wttr.in is a console-oriented weather forecast service that supports various information representation methods like ANSI-sequences for console HTTP clients, HTML, or PNG.',
-        date: 'Aug 11, 2020',
-        image: 'https://1.bp.blogspot.com/-OW7jX57tea4/XvnGxuEOslI/AAAAAAAABW0/R8lVT1AXDSwnvE0EGA9Ra49-LDm1ACwDgCK4BGAsYHg/s1216/wttr1.png',
-        url: 'https://hackzism.blogspot.com/2020/06/check-weather-from-terminal-using-wttrin.html'
+        title: 'Understanding the execution process of Apache Spark',
+        description: 'A brief explanation about Spark Architecture with its components, and its working Process.',
+        date: 'Sep 2, 2021',
+        image: 'https://miro.medium.com/max/720/1*BkE_igPTR1PoH7nyFGAtGQ.png',
+        url: 'https://sanjay-v.medium.com/understanding-the-execution-process-of-apache-spark-39f0c2b5ecac'
     },
     {
         id: 3,
-        title: 'BEING ANONYMOUS: A BEGINNERS GUIDE',
-        description: 'Here are some basic ways to lay off the Radar',
-        date: 'Aug 14, 2020',
-        image: 'https://1.bp.blogspot.com/-GR19yCNbKCE/XuRcKEfKvhI/AAAAAAAAAwY/srFWw5pOpzMibeJb__SmgZpx9dIpNNWqgCK4BGAsYHg/w640-h426/anonymous1.jpg',
-        url: 'https://hackzism.blogspot.com/2020/06/being-anonymous-beginners-guide.html'
+        title: 'Auto Encoders',
+        description: 'Introduction to Auto-Encoders with its architecture, process, testing, and application',
+        date: 'Jan 6, 2021',
+        image: 'https://miro.medium.com/max/720/1*mkyBbwdyRQl7Lm3aj_RhWg.jpeg',
+        url: 'https://sanjay-v.medium.com/auto-encoders-89f441fe777c'
     },
     {
         id: 4,
